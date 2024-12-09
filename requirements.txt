@@ -1,0 +1,7 @@
+google-generativeai==0.8.3
+numpy==2.2.0
+opencv-python-headless==4.10.0.84
+pillow==11.0.0
+PyAutoGUI==0.9.54
+rebrowser_playwright==1.49.0
+requests==2.32.3
