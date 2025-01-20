@@ -26,7 +26,7 @@ class HCaptchaResolver:
         }
 
         self.page = page
-        genai.configure(api_key='AIzaSyC1D37Jj3OdwqnKaGiyDx24GO5_8Kwjk40')
+        genai.configure(api_key='YOUR_KEY')
       
     async def consultar_grid_gemini(self): 
         recort_hcaptcha = os.path.join(self.dir, '..', 'images', 'grid_hcaptcha.png')
